@@ -237,7 +237,7 @@ function Menu() {
                   className="card"
                 >
                   <Card.Body>
-                    <Card.Title>Areas </Card.Title>
+                    <Card.Title>Areas CR7</Card.Title>
                     <Card.Text>
                       Ir hacia la pagina de administracion de areas
                     </Card.Text>
