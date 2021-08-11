@@ -38,15 +38,12 @@ function Navbar() {
   return (
     <>
       <IconContext.Provider value={{ color: "#fff" }}>
-        <div className="navbar" justify-content>
+        <div className="navbar">
           <Link to="#" className="menu-bars">
             <FaIcons.FaBars onClick={showSidebar} />
           </Link>
-          <h2>Sistema de inventarios</h2>
-
-          
-          
-          
+          <h2 style={{ textAlign: "center" }}>Sistema de inventarios</h2>
+          <h3>        </h3>
         </div>
 
 

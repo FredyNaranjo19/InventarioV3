@@ -1,6 +1,8 @@
 .menustyle{
     position: fixed;
-    z-index: -1;
+    z-index: -1 ;
+    display: flex;
+    margin: 0 0 1rem;
 }
 
 Button{
@@ -10,3 +12,10 @@ Button{
 .firstline{
     display: inline-block;
 }
+.card {
+    margin: 0 auto; 
+    float: none; 
+    margin-bottom: 10px; 
+}
+
+ 

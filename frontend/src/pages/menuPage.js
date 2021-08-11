@@ -19,12 +19,12 @@ function Menu() {
         <div className="menustyle">
           <Container fluid="xl" item-align="center">
             <Row>
-              <Col xs>
+              <Col xl>
                 <Card
-                  bg="primary"
+                  bg="dark"
                   text="light"
                   style={{ width: "18rem" }}
-                  className="mb-2"
+                  className="card"
                 >
                   <Card.Body>
                     <Card.Title>Usuarios </Card.Title>
@@ -33,7 +33,7 @@ function Menu() {
                     </Card.Text>
                   </Card.Body>
                   <Card.Header>
-                    <Button variant="primary" align="center">
+                    <Button variant="dark" align="center">
                       <Link style={{ color: "white" }} to="/usuarios">
                         Ir
                       </Link>
@@ -43,10 +43,10 @@ function Menu() {
               </Col>
               <Col>
                 <Card
-                  bg="secondary"
+                  bg="dark"
                   text="light"
                   style={{ width: "18rem" }}
-                  className="mb-2"
+                  className="card"
                 >
                   <Card.Body>
                     <Card.Title>Bienes </Card.Title>
@@ -55,7 +55,7 @@ function Menu() {
                     </Card.Text>
                   </Card.Body>
                   <Card.Header>
-                    <Button variant="secondary" align="center">
+                    <Button variant="dark" align="center">
                       <Link style={{ color: "white" }} to="/usuarios">
                         Ir
                       </Link>
@@ -65,10 +65,10 @@ function Menu() {
               </Col>
               <Col>
                 <Card
-                  bg="success"
+                  bg="dark"
                   text="light"
                   style={{ width: "18rem" }}
-                  className="mb-2"
+                  className="card"
                 >
                   <Card.Body>
                     <Card.Title>Proveedores</Card.Title>
@@ -77,77 +77,7 @@ function Menu() {
                     </Card.Text>
                   </Card.Body>
                   <Card.Header>
-                    <Button variant="success" align="center">
-                      <Link style={{ color: "white" }} to="/usuarios">
-                        Ir
-                      </Link>
-                    </Button>
-                  </Card.Header>
-                </Card>
-              </Col>
-            </Row>
-          </Container>
-          <Container fluid="xl" item-align="center">
-            <Row>
-              <Col xs>
-                <Card
-                  bg="danger"
-                  text="light"
-                  style={{ width: "18rem" }}
-                  className="mb-2"
-                >
-                  <Card.Body>
-                    <Card.Title>CONAC</Card.Title>
-                    <Card.Text>
-                      Ir hacia la pagina de administracion de categorias de conac
-                    </Card.Text>
-                  </Card.Body>
-                  <Card.Header>
-                    <Button variant="danger" align="center">
-                      <Link style={{ color: "white" }} to="/usuarios">
-                        Ir
-                      </Link>
-                    </Button>
-                  </Card.Header>
-                </Card>
-              </Col>
-              <Col>
-                <Card
-                  bg="warning"
-                  text="light"
-                  style={{ width: "18rem" }}
-                  className="mb-2"
-                >
-                  <Card.Body>
-                    <Card.Title>Modelos</Card.Title>
-                    <Card.Text>
-                      Ir hacia la pagina de administracion de modelos y marcas.
-                    </Card.Text>
-                  </Card.Body>
-                  <Card.Header>
-                    <Button variant="warning" align="center">
-                      <Link style={{ color: "white" }} to="/usuarios">
-                        Ir
-                      </Link>
-                    </Button>
-                  </Card.Header>
-                </Card>
-              </Col>
-              <Col>
-                <Card
-                  bg="info"
-                  text="light"
-                  style={{ width: "18rem" }}
-                  className="mb-2"
-                >
-                  <Card.Body>
-                    <Card.Title>Proyectos</Card.Title>
-                    <Card.Text>
-                      Ir hacia la pagina de administracion de proyectos.
-                    </Card.Text>
-                  </Card.Body>
-                  <Card.Header>
-                    <Button variant="info" align="center">
+                    <Button variant="dark" align="center">
                       <Link style={{ color: "white" }} to="/usuarios">
                         Ir
                       </Link>
@@ -164,7 +94,77 @@ function Menu() {
                   bg="dark"
                   text="light"
                   style={{ width: "18rem" }}
-                  className="mb-2"
+                  className="card"
+                >
+                  <Card.Body>
+                    <Card.Title>CONAC</Card.Title>
+                    <Card.Text>
+                      Ir hacia la pagina de administracion de categorias de conac
+                    </Card.Text>
+                  </Card.Body>
+                  <Card.Header>
+                    <Button variant="dark" align="center">
+                      <Link style={{ color: "white" }} to="/usuarios">
+                        Ir
+                      </Link>
+                    </Button>
+                  </Card.Header>
+                </Card>
+              </Col>
+              <Col>
+                <Card
+                  bg="dark"
+                  text="light"
+                  style={{ width: "18rem" }}
+                  className="card"
+                >
+                  <Card.Body>
+                    <Card.Title>Modelos</Card.Title>
+                    <Card.Text>
+                      Ir hacia la pagina de administracion de modelos y marcas.
+                    </Card.Text>
+                  </Card.Body>
+                  <Card.Header>
+                    <Button variant="dark" align="center">
+                      <Link style={{ color: "white" }} to="/usuarios">
+                        Ir
+                      </Link>
+                    </Button>
+                  </Card.Header>
+                </Card>
+              </Col>
+              <Col>
+                <Card
+                  bg="dark"
+                  text="light"
+                  style={{ width: "18rem" }}
+                  className="card"
+                >
+                  <Card.Body>
+                    <Card.Title>Proyectos</Card.Title>
+                    <Card.Text>
+                      Ir hacia la pagina de administracion de proyectos.
+                    </Card.Text>
+                  </Card.Body>
+                  <Card.Header>
+                    <Button variant="dark" align="center">
+                      <Link style={{ color: "white" }} to="/usuarios">
+                        Ir
+                      </Link>
+                    </Button>
+                  </Card.Header>
+                </Card>
+              </Col>
+            </Row>
+          </Container>
+          <Container fluid="xl" item-align="center">
+            <Row>
+              <Col xl>
+                <Card
+                  bg="dark"
+                  text="light"
+                  style={{ width: "18rem" }}
+                  className="card"
                 >
                   <Card.Body>
                     <Card.Title>Trimestres</Card.Title>
@@ -183,10 +183,10 @@ function Menu() {
               </Col>
               <Col>
                 <Card
-                  bg="secondary"
+                  bg="dark"
                   text="light"
                   style={{ width: "18rem" }}
-                  className="mb-2"
+                  className="card"
                 >
                   <Card.Body>
                     <Card.Title>Catalogo de depreciacion </Card.Title>
@@ -195,29 +195,7 @@ function Menu() {
                     </Card.Text>
                   </Card.Body>
                   <Card.Header>
-                    <Button variant="secondary" align="center">
-                      <Link style={{ color: "white" }} to="/usuarios">
-                        Ir
-                      </Link>
-                    </Button>
-                  </Card.Header>
-                </Card>
-              </Col>
-              <Col>
-                <Card
-                  bg="success"
-                  text="light"
-                  style={{ width: "18rem" }}
-                  className="mb-2"
-                >
-                  <Card.Body>
-                    <Card.Title>Areas </Card.Title>
-                    <Card.Text>
-                      Ir hacia la pagina de administracion de areas
-                    </Card.Text>
-                  </Card.Body>
-                  <Card.Header>
-                    <Button variant="success" align="center">
+                    <Button variant="dark" align="center">
                       <Link style={{ color: "white" }} to="/usuarios">
                         Ir
                       </Link>
@@ -229,12 +207,12 @@ function Menu() {
           </Container>
           <Container fluid="xl" item-align="center">
             <Row>
-              <Col xs>
+              <Col xl>
                 <Card
-                  bg="primary"
+                  bg="dark"
                   text="light"
                   style={{ width: "18rem" }}
-                  className="mb-2"
+                  className="card"
                 >
                   <Card.Body>
                     <Card.Title>Departamentos </Card.Title>
@@ -243,7 +221,29 @@ function Menu() {
                     </Card.Text>
                   </Card.Body>
                   <Card.Header>
-                    <Button variant="primary" align="center">
+                    <Button variant="dark" align="center">
+                      <Link style={{ color: "white" }} to="/usuarios">
+                        Ir
+                      </Link>
+                    </Button>
+                  </Card.Header>
+                </Card>
+              </Col>
+              <Col>
+                <Card
+                  bg="dark"
+                  text="light"
+                  style={{ width: "18rem" }}
+                  className="card"
+                >
+                  <Card.Body>
+                    <Card.Title>Areas </Card.Title>
+                    <Card.Text>
+                      Ir hacia la pagina de administracion de areas
+                    </Card.Text>
+                  </Card.Body>
+                  <Card.Header>
+                    <Button variant="dark" align="center">
                       <Link style={{ color: "white" }} to="/usuarios">
                         Ir
                       </Link>
